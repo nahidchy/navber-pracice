@@ -1,0 +1,60 @@
+body{
+    background-color: lightslategray;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo{
+    font-size: 30px;
+    color: lightpink;
+}
+.header .menu ul{
+    list-style:none;
+    display: flex;
+    color: lightpink;
+    ;
+    
+}
+.header .menu ul li{
+    margin-left: 20px;
+    font-size: 30px;
+}
+.header .menu ul li:last-child{
+    margin-right:20px;
+}
+section.banner{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom:200px;
+}
+.about{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.button{
+    font-size:35px;
+    color: lime;
+    background-color: rgb(36, 24, 2);
+    border-radius: 40px;
+    cursor: pointer;
+}
+     .button:hover{
+        background-color:rgb(4, 86, 133);
+    }
+
+    .skill-table{
+        margin:0 auto;
+    }
+   .footer{
+       margin-top: 200px;
+   } 
+
+footer p{
+    text-align: center;
+    font-size: 25px;
+}
